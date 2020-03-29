@@ -1,12 +1,13 @@
 package com.example.quizappication.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Questions {
+public class Questions implements Serializable {
     private String question;
     private List<String> choices;
     private String answer;
-
+    private boolean isCorrect;
 
     @Override
     public String toString() {
@@ -31,6 +32,14 @@ public class Questions {
 
     public String getAnswer() {
         return answer;
+    }
+
+    public boolean isCorrect() {
+        return isCorrect;
+    }
+
+    public void setCorrect() {
+        isCorrect = true;
     }
 
     public void setAnswer(String answer) {

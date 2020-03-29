@@ -7,7 +7,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="8dp"
-    tools:context=".QuestionActivity">
+    tools:context=".views.QuestionActivity">
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -64,26 +64,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quit"
-        android:id="@+id/buttonquit"
-        android:layout_marginTop="20dp"
+        android:text="View Result"
+        android:id="@+id/button4"
+        android:visibility="gone"
+        android:layout_marginTop="27dp"
         android:layout_below="@+id/button3"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="@android:color/holo_blue_light"
-        android:textColor="#ffffff" />
-
-
-    <TextView
-        android:id="@+id/scoreTxt"
-        android:layout_below="@+id/buttonquit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="50dp"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"/>
     <TextView
         android:id="@+id/tvque"
         android:layout_width="wrap_content"
