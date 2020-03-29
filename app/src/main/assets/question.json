@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Is it possible activity without UI in Android",
+    "choices": [
+      "No",
+      "Yes",
+      "Can't Say",
+      "None"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Persist data can be stored in Android using?",
+    "choices": [
+      "SQLite",
+      "ORMlite",
+      "Shared Preferences",
+      "All of Above"
+    ],
+    "answer": "All of Above"
+  },
+  {
+    "question": "How to stop Service",
+    "choices": [
+      "finish()",
+      "System.exit()",
+      "By Manually",
+      "stopSelf() and stopService()"
+    ],
+    "answer": "stopSelf() and stopService()"
+  },
+  {
+    "question": "How to kill an activity.",
+    "choices": [
+      "finish()",
+      "finishActivity(int requestCode)",
+      "A and B",
+      "kill()"
+    ],
+    "answer": "A and B"
+  }
+]
