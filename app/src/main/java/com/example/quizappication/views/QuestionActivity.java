@@ -77,7 +77,8 @@ public class QuestionActivity extends AppCompatActivity {
                     flag++;
                     setupUi(flag);
                     radio_g.clearCheck();
-                } else {
+                }
+                if (flag == questions.size()-1) {
                     submitbutton.setVisibility(View.GONE);
                     resultbutton.setVisibility(View.VISIBLE);
                 }

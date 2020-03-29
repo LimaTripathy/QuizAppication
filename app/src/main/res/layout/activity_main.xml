@@ -64,7 +64,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Result"
+        android:text="Submit and View Result"
         android:id="@+id/button4"
         android:visibility="gone"
         android:layout_marginTop="27dp"
